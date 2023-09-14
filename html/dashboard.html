@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/logo_posyandu.png" type="image/x-icon">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Dashboard</title>
+</head>
+<body class="h-[150vh]">
+    <!-- SIDEBAR -->
+    <div id="nav" class="w-[15%] bg-sky-500 h-screen fixed text-white">
+        <div class="">
+            <div class="aspect-square w-28 rounded-full bg-white flex items-center justify-center mt-10 mx-auto">
+                <a href="dashboard.html"><img src="/assets/logo_posyandu.png" alt="" class="w-20"></a>
+            </div>
+            <div class="mt-40 p-5 text-xl">
+                <ul class="list-none">
+                    <li class="group">
+                        <div class="flex space-x-2  group-hover:bg-sky-700 group-hover:rounded-lg py-1 px-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" viewBox="0 0 24 24" fill="white"><path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path></svg>
+                            <a href="dashboard.html" class="hover:underline">Dashboard</a>
+                        </div>
+                    </li>
+                    <li class="group">
+                        <div class="flex space-x-2  group-hover:bg-sky-700 group-hover:rounded-lg py-1 px-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" viewBox="0 0 24 24" fill="white"><path d="M21.666 12.277a7.72 7.72 0 0 0 .171-.665c.003-.017.004-.033.008-.05.02-.098.029-.199.045-.298.025-.157.055-.313.07-.471a7.979 7.979 0 0 0-2.303-6.45A7.979 7.979 0 0 0 14 2v8H6.517l-.858-2H2v2h2.341l1.828 4.266A3.504 3.504 0 0 0 4 17.5C4 19.43 5.57 21 7.5 21c1.759 0 3.204-1.309 3.449-3h2.102c.245 1.691 1.69 3 3.449 3 1.93 0 3.5-1.57 3.5-3.5 0-.63-.181-1.213-.473-1.725.042-.041.089-.077.131-.119.36-.361.688-.759.977-1.184.288-.43.536-.886.736-1.359.016-.037.026-.076.041-.113h.001l.015-.042c.088-.22.168-.441.235-.668l.003-.013zM7.5 19c-.827 0-1.5-.673-1.5-1.5S6.673 16 7.5 16s1.5.673 1.5 1.5S8.327 19 7.5 19zm9 0c-.827 0-1.5-.673-1.5-1.5s.673-1.5 1.5-1.5 1.5.673 1.5 1.5-.673 1.5-1.5 1.5z"></path></svg>
+                            <a href="balita.html" class="hover:underline">Balita</a>
+                        </div>
+                    </li>
+                    <li class="group">
+                        <div class="flex space-x-2  group-hover:bg-sky-700 group-hover:rounded-lg py-1 px-1">                       
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26"viewBox="0 0 24 24" fill="white"><path d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z"></path></svg>
+                            <a href="#" class="hover:underline">Lansia</a></li>
+                        </div>
+                </ul>
+            </div>
+            <div class="relative mt-20 text-center">
+                <a href="#" class="bg-red-600 hover:bg-red-800 px-4 py-1 rounded-lg">Keluar</a>
+            </div>
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- CONTENT -->
+    <div class="relative ml-[15%] p-5">
+        <div class="mb-14">
+            <h1 class="text-4xl font-bold">DASHBOARD</h1>
+        </div>
+        <div class="grid grid-cols-3 gap-10 w-1/2 mx-auto py-5">
+            <div class="aspect-video w-48 bg-slate-200 p-3 rounded-sm mt-3 shadow-lg shadow-emerald-300">
+                <h2 class="text-lg font-bold">Data Balita</h2>
+                <p class="text-4xl font-extrabold">123</p>
+            </div>
+            <div class="aspect-video w-48 bg-slate-200 p-3 rounded-sm mt-3 shadow-lg shadow-emerald-300">
+                <h2 class="text-lg font-bold">Data Lansia</h2>
+                <p class="text-4xl font-extrabold">123</p>
+            </div>
+            <div class="aspect-video w-48 bg-slate-200 p-3 rounded-sm mt-3 shadow-lg shadow-emerald-300">
+                <h2 class="text-lg font-bold">Data</h2>
+                <p class="text-4xl font-extrabold">123</p>
+            </div>
+        </div>
+        <hr class="h-1 bg-cyan-400 w-full">
+        <div class="p-3">
+            <h1 class="text-xl font-bold">Data Terbaru</h1>
+            <div class="bg-slate-200 mx-6 p-3 rounded-md my-2 flex space-x-40 shadow-sm shadow-sky-500">
+                <h2>Muhammad Enrico</h2>
+                <h2>27 Agustus 2023</h2>
+            </div>
+            <div class="bg-slate-200 mx-6 p-3 rounded-md my-2 flex space-x-40 shadow-sm shadow-sky-500">
+                <h2>Muhammad Enrico</h2>
+                <h2>27 Agustus 2023</h2>
+            </div>
+            <div class="bg-slate-200 mx-6 p-3 rounded-md my-2 flex space-x-40 shadow-sm shadow-sky-500">
+                <h2>Muhammad Enrico</h2>
+                <h2>27 Agustus 2023</h2>
+            </div>
+            
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</body>
+</html>
